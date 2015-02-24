@@ -44,7 +44,7 @@
 
 #include "am335x-boneblack-emmc.dtsi"
 /* HDMI: with audio */
-#include "am335x-boneblack-nxp-hdmi-audio.dtsi"
+/* #include "am335x-boneblack-nxp-hdmi-audio.dtsi" */
 /* HDMI: without audio */
 /* #include "am335x-boneblack-nxp-hdmi-no-audio.dtsi" */
 
@@ -67,14 +67,14 @@
 /* P9.18 spi0_d1 */
 /* P9.21 spi0_d0 */
 /* P9.22 spi0_sclk */
-/* #include "am335x-bone-spi0-spidev.dtsi" */
+#include "am335x-bone-spi0-spidev.dtsi"
 
 /* spi1: */
 /* P9.31 spi1_sclk */
 /* P9.29 spi1_d0 */
 /* P9.30 spi1_d1 */
 /* P9.28 spi1_cs0 */
-/* #include "am335x-bone-spi1-spidev.dtsi" */
+#include "am335x-bone-spi1-spidev.dtsi"
 
 /* spi1a: */
 /* P9.42 spi1_sclk */
